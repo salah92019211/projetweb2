@@ -1,0 +1,5 @@
+export const ADD_ARTICLES = "ADD_ARTICLES"
+export const DELETE_ARTICLE = "DELETE_ARTICLE"
+export const TOGGLE_VIEW = "TOGGLE_VIEW"
+export const EDIT_ARTICLE = "EDIT_ARTICLE"
+export const I_LIKE = "I_LIKE"

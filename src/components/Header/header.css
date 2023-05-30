@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+/* Basic reset */
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+:root {
+  --nav-bg: #212121;
+  --nav-logo: #fff;
+  --nav-link: #fff;
+  --nav-link-hover: #fff;
+  --nav-border: #424242;
+  --nav-btn: #424242;
+}
+
+/* body {
+  background-color: #424242;
+} */
+
+/* Navbar 1 (base)*/
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Montserrat, sans-serif;
+  background-color: var(--nav-bg);
+  padding: 20px 30px;
+  color: var(--nav-color);
+  /* margin-bottom: 1em; */
+  border-bottom: var(--nav-border) solid 1px;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  cursor : none
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  /* transition: color 0.3s ease; */
+}
+
+.nav-list a:hover {
+  color: #fff;
+}
+
+/* Navbar 2 */
+.nav-2 {
+  justify-content: space-between;
+}
+
+/* Navbar 3 */
+.nav-3 {
+  justify-content: space-between;
+}
+
+/* Contact button */
+.nav-btn {
+  background-color: var(--nav-btn);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+  left: 0px;
+}
+
+.btn :hover {
+  background-color: #fff;
+  color : #424242
+}
